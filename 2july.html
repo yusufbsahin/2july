@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>1 July Progress</title>
+  <link rel="icon" type="image/x-icon" href="favicon(1).ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+.all-campuses {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-campuses > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+  color: #0670AB;
+}
+
+.campus {
+  background: white;
+}
+
+.campus > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<h1 style="background-color:LightBlue; text-align:center;">Progress</h1>
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h2>Here are the new things I have learned on 2 July</h2>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#1">Computer code examples</a>
+    <a href="#2">Semnatic examples</a>
+    <a href="#3">Changing image according to size of the webpage</a>
+    <a href="#4">Footnote</a>
+  </div>
+
+  <div class="main">
+    <h3>Such as making a responsive website</h3>
+    <p>This site will resize and change its apparence accordingly with the current device.<br>
+I have used examples of &lt;code&gt;,&lt;kbd&gt;,&lt;samp&gt;,&lt;var&gt;,&lt;article&gt;,&lt;aside&gt;.<br>
+And also a image that resizes it self according to the width of current device and lastly a footnote for the university pages that I got the info from to use it in this page.
+</p>
+  </div>
+
+  <div class="right">
+    <h3>This site includes usage examples of:</h3>
+    <p> Computer codes, semnatics responsive image etc.</p>
+  </div>
+</div>
+
+
+<h4 id="1" style="color:lightgreen" >Computer code examples</h4>
+<h5> Programming code example:</h5>
+<pre>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+</pre>
+<br>
+<h5>The kbd element example:</h5>
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+<br>
+<h5>The samp Element example:</h5>
+<p>Message from computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+<br>
+<h5>The var element example:</h5>
+
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+<br>
+<br>
+<h4 id="2" style="color:lightgreen">Semnatic examples</h4>
+<p>Example for &lt;article&gt;:</p>
+<article class="all-campuses">
+  <h1>All Istinye University Campuses <a href="#4"><sup>[1]</sup></a></h1>
+  <article class="campus">
+    <h2>Vadi Campus</h2>
+    <p>İstinye Üniversitesi Vadi Kampüsü, Ayazağa Mah. Azerbaycan Cad. (Vadi İstanbul 4A) Blok No: 3H Sarıyer/İSTANBUL</p>
+  </article>
+  <article class="campus">
+    <h2>Topkapı Campus</h2>
+    <p>İstinye Üniversitesi Topkapı Kampüsü, Maltepe Mah., Teyyareci Sami Sk., No.3 Zeytinburnu, İstanbul, 34010</p>
+  </article>
+  <article class="campus">
+    <h2>Istinye University Bahçeşehir Hospital Campus</h2>
+    <p>  Aşık Veysel Mah. Süleyman Demirel Cad. No:1 Esenyurt - İstanbul</p>
+  </article>
+ <article class="campus">
+    <h2>Istinye University Gaziosmanpaşa Hospital Campus</h2>
+    <p>  Merkez Mahallesi Çukurçeşme Cad. No: 57-59 Gaziosmanpaşa - İstanbul</p>
+  </article>
+
+</article>
+<br>
+<br>
+<p>Example for &lt;aside&gt;:</p>
+
+<p>Etkinliğin açılış konuşmasını yapan Prof. Dr. Mustafa Ayberk Kurt, bu tarz öğrenci etkinliklerinin çok önemli olduğunu belirterek, </p>
+
+<aside>
+<p>İstinye Üniversitesi’nin (İSÜ) düzenlediği <a href="#4"><sup>[2]</sup></a> ‘Tıp ve Yapay Zekâya Multidisipliner Yaklaşım’ konferansı 9 Haziran Pazar günü İSÜ Vadi H Kampüsünde gerçekleştirildi. Tıp ve yapay zekâ çalışmalarının konuşulduğu etkinlikte alanında uzman isimler yapay zekâ ve sağlığı bir araya getiren sunumlar yaptı.</p> 
+</aside>
+
+<p>"Bu kongre aslında hem toplantının kendisi açısından hem de içeriği açısından çok önemli. Kazanılması gereken yetkinlikler değişti. Mesleğinizi bileceksiniz, bunun dışında farklı yetkinlikler de edinmeniz gerekiyor. Özellikle yapay zekanın devreye girmesiyle bu yetkinlikler daha da önem kazanacak. Bunlardan bir tanesi liderlik yetkinliği, ekip çalışması yetkinliği. Bunun dışında yaşam boyu öğrenme ve kendinizi geliştirme yetkinliği en önemlileri arasında. Bir lisans mezunun sadece kendi mesleğini bilmesi yetmiyor. Bu perspektiften baktığınızda bu tarz yetkinlikler katılımcılar ve düzenleyiciler için çok önemli” dedi.</p>
+<br>
+<br>
+<h4 id="3" style="color:lightgreen">Show different images depending on browser width</h4>
+<p>Resize the browser width and the image will change at 600px and 1500px.</p>
+
+<picture>
+  <source srcset="ss.png" media="(max-width: 600px)">
+  <source srcset="ISU09087-scaled-1.jpg" media="(max-width: 1500px)">
+  <source srcset="XXXL.png">
+  <img src="XXXL.png" alt="İSÜ Kampüs" style="width:auto">
+</picture>
+
+<div id="4" style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;"><a href="https://www.istinye.edu.tr/tr/haberler/inspark-kulubunden-tip-ve-yapay-zeka-konferansi"</a>Tıp Ve Yapay Zekâ Konferansı</div>
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;"><a href="https://www.istinye.edu.tr/tr/kampuslerimiz"</a>Istinye University Campuses</div>
+
+</body>
+</html> 
+
